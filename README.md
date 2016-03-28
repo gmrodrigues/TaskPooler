@@ -1,5 +1,5 @@
 # TaskPooler
-Put threads in a pool and execute in n slots
+Put threads in a pool and execute a given number of tasks at same time
 
 ```
         TaskPool taskPool = new TaskPool(2); //Create a task pool with capacity or running 2 tasks at same time
